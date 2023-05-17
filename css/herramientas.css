@@ -1,0 +1,6 @@
+.portada{
+    background: url(../img/portadas/img2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,34 @@
+{
+    "photos": [
+      {
+        "id": 1,
+        "title": "Realidad Virtual ¿Cómo afectará nuesro futuro?",
+        "url": "https://materialuacjhtmlycss.000webhostapp.com/material-html/APIS/imagenes/1.jpg",
+        "date": "2022-01-01"
+      },
+      {
+        "id": 2,
+        "title": "¿Qué impacto tienen las nuevas tecnologías?",
+        "url": "https://materialuacjhtmlycss.000webhostapp.com/material-html/APIS/imagenes/2.jpg",
+        "date": "2022-01-05"
+      },
+      {
+        "id": 3,
+        "title": "El manejo de las rede sociales",
+        "url": "https://materialuacjhtmlycss.000webhostapp.com/material-html/APIS/imagenes/3.jpg",
+        "date": "2022-01-10"
+      },
+      {
+        "id": 4,
+        "title": "Chat GPT ¿Qué impacto tendrá en un futuro?",
+        "url": "https://materialuacjhtmlycss.000webhostapp.com/material-html/APIS/imagenes/4.jpg",
+        "date": "2022-01-15"
+      },
+      {
+        "id": 5,
+        "title": "La nueva tecnología en la medicina",
+        "url": "https://materialuacjhtmlycss.000webhostapp.com/material-html/APIS/imagenes/5.jpg",
+        "date": "2022-01-20"
+      }
+    ]
+  }

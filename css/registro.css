@@ -1,0 +1,117 @@
+.portada{
+    height: 0;
+}
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main{
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido{
+    width: 80%;
+    padding: 5%;
+    display: flex;
+}
+
+.bloques{
+    width: 50%;
+    padding: 40px;
+}
+
+#izq img{
+    width: 100%;
+}
+
+#der{
+    display: flex;
+    justify-content: center;
+}
+
+/*------FORMULARIO-----*/
+
+.formulario-registro{
+    width: 80%;
+    background-color: #003F5A;
+    color: #f1f1f1;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secciones-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #nombre, #apellido, #email, #telefono, #usuario, #clave {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .terminos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #registrarse {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #registrarse:hover {
+    background-color: #3e8e41;
+  }
+  
+  .condiciones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cont-cond{
+    width: 70%;
+  }
