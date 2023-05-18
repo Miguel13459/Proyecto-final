@@ -1,0 +1,137 @@
+.portada{
+    background: url(../img/portadas/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*--Ruleta--*/
+.container{
+    margin-bottom: 10%;
+}
+
+ul.slider{	
+    width:375px; height:562px;
+    margin:0 auto;
+    padding:0;		
+    position:relative;
+    list-style-type:none;				
+    overflow:hidden;                
+    border: 2px solid  #FEB359;                
+}
+
+
+ul.slider:before{
+    /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_content_list-bullets*/
+    content:'';		
+    background:transparent url(/im/play.png) no-repeat scroll right bottom;	
+    height:30px; width:100%;
+    position:absolute;		
+    left:0;
+    bottom:0;		
+    z-index:1;
+}
+
+ul.slider:hover:before{
+    display:none;
+}
+
+ul.slider li{
+
+    height:100%; width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 1;		
+    background:#000; 	
+}
+    
+ul.slider li:after{
+    content:'';
+    height:10px; width:0;			
+    position:absolute;
+    bottom:0;
+    left:0;
+    
+    -moz-transition: width 3s linear;
+    -webkit-transition: width 3s linear;
+    -o-transition: width 3s linear;
+    transition: width 3s linear;
+    
+}
+
+ul.slider li:hover:after{	
+    width:100%;
+    background:#FEB359;	
+}		
+
+ul.slider li:hover~li,
+ul.slider li:hover~li:after
+{
+    display:none;
+    z-index:-1;
+}
+
+
+ul.slider li:hover{	
+    margin:100px; 
+    opacity: 0;
+    -moz-transition: margin .1s linear 3s, opacity 1s linear 2s ; 
+    -webkit-transition: margin .1s linear 3s, opacity 1s linear 2s ;
+    -o-transition: margin .1s linear 3s, opacity 1s linear 2s ;
+    transition: margin .1s linear 3s, opacity 1s linear 2s ;
+}	
+
+ul.slider li img{	 
+    display:block;
+}
+
+/*.ejemplos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-ejemplo{
+    width: 60%;
+}
+
+.carrusel{
+    width: 100%;
+    overflow: hidden;
+    animation: slide 18s infinite;
+}
+
+.carrusel ul{
+    display: flex;
+    width: 900%;
+}
+
+.carrusel li{
+    list-style: none;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.carrusel img{
+    width: 100%;
+}
+
+.carrusel h3{
+    text-align: center;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%}
+    20% {margin-left: 0%}
+    
+    25% {margin-left: -100%}
+    45% {margin-left: -100%}
+
+    50% {margin-left: -200%}
+    70% {margin-left: -200%}
+
+    75% {margin-left: -300%}
+    95% {margin-left: -300%}
+}*/

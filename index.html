@@ -75,7 +75,7 @@
             <a href="index.html">Inicio</a>
             <a href="creatividad.html">Creatividad</a>
             <a href="Herramientas.html">Herramientas</a>
-            <a href="Ilustracion.html">Ilustraciones</a>
+            <a href="carrusel.html">Ilustraciones</a>
         </div>
     </nav>
 
@@ -235,26 +235,26 @@
         <aside>
             <div id="formulario">
                 <h3>¿Necesitas más información de diferentes temas?</h3>
-                <form>
+                <form id="form-datos" action="php/datos.php" method="POST">
                     <div class="secciones">
                         <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+                        <input type="text" id="nombre" name="nombre" maxlength="30" required>
                     </div>
                     <div class="secciones">
                         <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" name="apellido" required>
+                        <input type="text" id="apellido" name="apellido" maxlength="30" required>
                     </div>
                     <div class="secciones">
                         <label for="telefono">Teléfono:</label>
-                        <input type="tel" id="telefono" name="telefono" required>
+                        <input type="tel" id="telefono" name="telefono" maxlength="10" required>
                     </div>
                     <div class="secciones">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" maxlength="56" required>
                     </div>
                     <div class="secciones">
                         <label for="comentarios">Explica tu duda:</label>
-                        <textarea id="comentarios" name="comentarios"></textarea>
+                        <textarea id="comentarios" name="comentarios" maxlength="200"></textarea>
                     </div>
                     <div class="secciones politica">
                         <label>
@@ -325,11 +325,14 @@
     </main>
 
     <footer id="footer">
-        <div class="contenido izquierdo">
+        <div class="QR cajas">
+            <img src="img/QR.jpg" alt="">
+        </div>
+        <div class="contenido izquierdo cajas">
             <img src="img/Escudo uacj 2015-color-sin fondo.png" alt="uacj">
             <img src="img/logotipo iada.jpg" alt="iada" class="iada">
         </div>
-        <div class="contenido derecho">
+        <div class="contenido derecho cajas">
             <div class="texto-footer">
                 <h3>Página realizada por:</h3>
                 <p>Miguel Antonio Trujillo Rivas</p>
